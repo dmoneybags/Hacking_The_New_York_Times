@@ -169,7 +169,8 @@ write_article(args.url)
 convert_to_html("page_source.txt")
 driver.get("/page_source.html")
 print("Is the full article present within the HTML? (Y/N)")
-while answer := input()
+while true
+    answer = input()
     if answer == "N":
         break
     elif answer == "Y":
