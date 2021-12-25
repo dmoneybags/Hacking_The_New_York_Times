@@ -1,5 +1,4 @@
-# I don't have a New York Times subscription...
-## Too bad they preload their html and json...
+# I don't have a New York Times subscription
 
 https://user-images.githubusercontent.com/86892271/147376896-416402ab-e06a-43ba-a23b-a873426ca1f3.mp4
 
