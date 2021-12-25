@@ -167,6 +167,13 @@ if args.url is None:
     exit()
 write_article(args.url)
 convert_to_html("page_source.txt")
+driver.get("/page_source.html")
+print("Is the full article present within the HTML? (Y/N)")
+while answer := input()
+    if answer == "N":
+        break
+    elif answer == "Y":
+        exit()
 get_json("page_source.txt")
 #jsonObjects is a dict
 jsonObjects = filter_json("page.json")
